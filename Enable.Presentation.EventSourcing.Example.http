@@ -1,0 +1,14 @@
+@Enable.Presentation.EventSourcing.Example_HostAddress = http://localhost:5280
+
+PUT {{Enable.Presentation.EventSourcing.Example_HostAddress}}/users/
+Accept: application/json
+
+GET {{Enable.Presentation.EventSourcing.Example_HostAddress}}/users/
+Accept: application/json
+
+POST {{Enable.Presentation.EventSourcing.Example_HostAddress}}/users/
+Accept: application/json
+
+DELETE {{Enable.Presentation.EventSourcing.Example_HostAddress}}/users/
+Accept: application/json
+
