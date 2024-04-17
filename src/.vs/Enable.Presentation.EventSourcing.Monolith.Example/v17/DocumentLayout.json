@@ -1,0 +1,383 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D949943E-078A-4C84-800C-8A6FEB5736F7}|..\\Enable.Presentation.EventSourcing.Tests\\Enable.Presentation.EventSourcing.Tests.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\enable.presentation.eventsourcing.tests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8A4812-88F2-4F25-AF59-997BF822FF95}|Enable.Presentation.EventSourcing.Api.Layer\\Enable.Presentation.EventSourcing.Api.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.api.layer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8A4812-88F2-4F25-AF59-997BF822FF95}|Enable.Presentation.EventSourcing.Api.Layer\\Enable.Presentation.EventSourcing.Api.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.api.layer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB98E9D-7C8D-4A74-AE91-DA0357643502}|Enable.Presentation.EventSourcing.Access.Layer\\Enable.Presentation.EventSourcing.DataAccess.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.access.layer\\common\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB98E9D-7C8D-4A74-AE91-DA0357643502}|Enable.Presentation.EventSourcing.Access.Layer\\Enable.Presentation.EventSourcing.DataAccess.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.access.layer\\common\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\notifications\\userdeletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\notifications\\userdeletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB98E9D-7C8D-4A74-AE91-DA0357643502}|Enable.Presentation.EventSourcing.Access.Layer\\Enable.Presentation.EventSourcing.DataAccess.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.access.layer\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB98E9D-7C8D-4A74-AE91-DA0357643502}|Enable.Presentation.EventSourcing.Access.Layer\\Enable.Presentation.EventSourcing.DataAccess.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.access.layer\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\requests\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\requests\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\requests\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\requests\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\requests\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\requests\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\requests\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\requests\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\notifications\\userupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\notifications\\userupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\notifications\\useraddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.business.data\\features\\users\\mediatr\\notifications\\useraddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.business.data\\features\\users\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BD684D-B824-4D52-8C20-8C052D53B43B}|Enable.Presentation.EventSourcing.Business.Data\\Enable.Presentation.EventSourcing.Business.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.business.data\\features\\users\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB98E9D-7C8D-4A74-AE91-DA0357643502}|Enable.Presentation.EventSourcing.Access.Layer\\Enable.Presentation.EventSourcing.DataAccess.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.access.layer\\configuration\\dependencyinjection\\mediatr\\ienablepresentationdataaccesslayerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB98E9D-7C8D-4A74-AE91-DA0357643502}|Enable.Presentation.EventSourcing.Access.Layer\\Enable.Presentation.EventSourcing.DataAccess.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.access.layer\\configuration\\dependencyinjection\\mediatr\\ienablepresentationdataaccesslayerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB98E9D-7C8D-4A74-AE91-DA0357643502}|Enable.Presentation.EventSourcing.Access.Layer\\Enable.Presentation.EventSourcing.DataAccess.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.access.layer\\repositories\\eventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB98E9D-7C8D-4A74-AE91-DA0357643502}|Enable.Presentation.EventSourcing.Access.Layer\\Enable.Presentation.EventSourcing.DataAccess.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.access.layer\\repositories\\eventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.infrastructure.layer\\configuration\\dependencyinjection\\mediatr\\ienablepresentationinfrastructurelayerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.infrastructure.layer\\configuration\\dependencyinjection\\mediatr\\ienablepresentationinfrastructurelayerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.infrastructure.layer\\data\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.infrastructure.layer\\data\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.infrastructure.layer\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.infrastructure.layer\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.infrastructure.layer\\data\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.infrastructure.layer\\data\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.infrastructure.layer\\data\\context\\enablepresentationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.infrastructure.layer\\data\\context\\enablepresentationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|c:\\users\\ital-\\source\\repos\\enable.presentation.eventsourcing.monolith.example\\src\\enable.presentation.eventsourcing.infrastructure.layer\\services\\messaging\\servicebusmessagingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D93209C-319A-4308-8A6E-448C7F09A260}|Enable.Presentation.EventSourcing.Infrastructure.Layer\\Enable.Presentation.EventSourcing.Infrastructure.Layer.csproj|solutionrelative:enable.presentation.eventsourcing.infrastructure.layer\\services\\messaging\\servicebusmessagingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\Enable.Presentation.EventSourcing.Tests\\Controllers\\UserControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\Enable.Presentation.EventSourcing.Tests\\Controllers\\UserControllerTests.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\Enable.Presentation.EventSourcing.Tests\\Controllers\\UserControllerTests.cs",
+              "RelativeToolTip": "..\\Enable.Presentation.EventSourcing.Tests\\Controllers\\UserControllerTests.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAkwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:37:47.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Api.Layer\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Api.Layer\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Api.Layer\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Api.Layer\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAArwEEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:35:53.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteUser.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\DeleteUser.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\DeleteUser.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\DeleteUser.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\DeleteUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:34:03.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddUser.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\AddUser.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\AddUser.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\AddUser.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\AddUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:33:40.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetUser.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\GetUser.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\GetUser.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\GetUser.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\GetUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:32:59.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateUser.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\UpdateUser.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\UpdateUser.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\UpdateUser.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Requests\\UpdateUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:32:53.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserAddedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserAddedEvent.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserAddedEvent.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserAddedEvent.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserAddedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:32:50.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDeletedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserDeletedEvent.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserDeletedEvent.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserDeletedEvent.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserDeletedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:32:42.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserUpdatedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserUpdatedEvent.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserUpdatedEvent.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserUpdatedEvent.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Mediatr\\Notifications\\UserUpdatedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:32:35.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Validators\\UserValidator.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Validators\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Validators\\UserValidator.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Business.Data\\Features\\Users\\Validators\\UserValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:32:19.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Access.Layer\\Common\\Repositories\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Access.Layer\\Common\\Repositories\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Access.Layer\\Common\\Repositories\\IBaseRepository.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Access.Layer\\Common\\Repositories\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:32:08.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEnablePresentationDataAccessLayerRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Access.Layer\\Configuration\\DependencyInjection\\Mediatr\\IEnablePresentationDataAccessLayerRegistration.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Access.Layer\\Configuration\\DependencyInjection\\Mediatr\\IEnablePresentationDataAccessLayerRegistration.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Access.Layer\\Configuration\\DependencyInjection\\Mediatr\\IEnablePresentationDataAccessLayerRegistration.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Access.Layer\\Configuration\\DependencyInjection\\Mediatr\\IEnablePresentationDataAccessLayerRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:32:00.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Access.Layer\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Access.Layer\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Access.Layer\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Access.Layer\\Repositories\\UsersRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:31:47.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEnablePresentationInfrastructureLayerRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Configuration\\DependencyInjection\\Mediatr\\IEnablePresentationInfrastructureLayerRegistration.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Configuration\\DependencyInjection\\Mediatr\\IEnablePresentationInfrastructureLayerRegistration.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Configuration\\DependencyInjection\\Mediatr\\IEnablePresentationInfrastructureLayerRegistration.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Configuration\\DependencyInjection\\Mediatr\\IEnablePresentationInfrastructureLayerRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:31:41.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\IEntity.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\IEntity.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\IEntity.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:31:36.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\User.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:31:28.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\Event.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\Event.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\Event.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Entities\\Event.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:31:27.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnablePresentationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Context\\EnablePresentationDbContext.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Context\\EnablePresentationDbContext.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Context\\EnablePresentationDbContext.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Data\\Context\\EnablePresentationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:30:39.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ServiceBusMessagingService.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Services\\Messaging\\ServiceBusMessagingService.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Services\\Messaging\\ServiceBusMessagingService.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Infrastructure.Layer\\Services\\Messaging\\ServiceBusMessagingService.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Infrastructure.Layer\\Services\\Messaging\\ServiceBusMessagingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:30:36.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Access.Layer\\Repositories\\EventsRepository.cs",
+              "RelativeDocumentMoniker": "Enable.Presentation.EventSourcing.Access.Layer\\Repositories\\EventsRepository.cs",
+              "ToolTip": "C:\\Users\\ital-\\source\\repos\\Enable.Presentation.EventSourcing.Monolith.Example\\src\\Enable.Presentation.EventSourcing.Access.Layer\\Repositories\\EventsRepository.cs",
+              "RelativeToolTip": "Enable.Presentation.EventSourcing.Access.Layer\\Repositories\\EventsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:29:19.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
