@@ -1,4 +1,4 @@
-using Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Mediatr.Commands;
+using Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Mediatr.Requests;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -12,10 +12,12 @@ public class UsersController(IMediator mediator) : ControllerBase
 {
     private readonly IMediator _mediator = mediator;
 
+    /// <summary>
+    /// Reads a user by their unique identifier and returns the user asynchronously
+    /// </summary>
     [HttpGet("{id:Guid}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [AllowAnonymous]
     public async Task<IActionResult> Read(Guid id, CancellationToken cancellationToken = default)
     {
@@ -30,9 +32,13 @@ public class UsersController(IMediator mediator) : ControllerBase
         };
     }
 
+    /// <summary>
+    /// Adds a user to the system asynchronously
+    /// </summary>
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [AllowAnonymous]
     public async Task<IActionResult> Add(CancellationToken cancellationToken = default)
     {
@@ -41,7 +47,7 @@ public class UsersController(IMediator mediator) : ControllerBase
             return BadRequest();
         }
 
-        var user = await Request.ReadFromJsonAsync<User>(cancellationToken: cancellationToken);
+        var user = await Request.ReadFromJsonAsync<User>(cancellationToken: cancellationToken) ;
         if (user == null)
         {
             return BadRequest();
@@ -59,9 +65,12 @@ public class UsersController(IMediator mediator) : ControllerBase
 
     }
 
+    /// <summary>
+    /// Updates a user in the system asynchronously
+    /// </summary>
     [HttpPut("{id:Guid}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     [AllowAnonymous]
     public async Task<IActionResult> Update(Guid id, CancellationToken cancellationToken = default)
     {
@@ -76,10 +85,12 @@ public class UsersController(IMediator mediator) : ControllerBase
         };
     }
 
+    /// <summary>
+    /// Deletes a user from the system asynchronously
+    /// </summary>
     [HttpDelete("{id:Guid}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [AllowAnonymous]
     public async Task<IActionResult> Delete(Guid id, CancellationToken cancellationToken = default)
     {

@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Features\Events\Mediatr\Commands\" />
-    <Folder Include="Features\Users\Models\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,15 +1,21 @@
-﻿using Enable.Presentation.EventSourcing.DataAccess.Layer.Common.Repositories;
+using Enable.Presentation.EventSourcing.DataAccess.Layer.Common.Repositories;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Context;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
 
+/// <summary>
+/// A repository for managing <see cref="User"/> entities.
+/// </summary>
 public interface IUsersRepository : IBaseRepository<User>
 {
     Task<User?> GetByUserIdAsync(Guid userId);
 }
 
+/// <summary>
+/// A repository for managing <see cref="User"/> entities.
+/// </summary>
 public class UsersRepository(IEnablePresentationDbContext enablePresentationDbContext) : IUsersRepository
 {
     private readonly IEnablePresentationDbContext _enablePresentationDbContext = enablePresentationDbContext;

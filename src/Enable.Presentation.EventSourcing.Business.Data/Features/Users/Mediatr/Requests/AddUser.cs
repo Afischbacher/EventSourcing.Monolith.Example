@@ -1,10 +1,10 @@
-﻿using Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Mediatr.Events;
+using Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Mediatr.Events;
 using Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
 using FluentValidation;
 using MediatR;
 
-namespace Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Mediatr.Commands
+namespace Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Mediatr.Requests
 {
     public class AddUser : IRequest<User>
     {

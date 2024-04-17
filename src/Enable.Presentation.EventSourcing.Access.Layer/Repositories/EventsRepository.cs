@@ -1,4 +1,4 @@
-﻿
+
 using Enable.Presentation.EventSourcing.DataAccess.Layer.Common.Repositories;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Context;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
@@ -6,11 +6,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
 
+/// <summary>
+/// A repository for managing <see cref="Event"/> entities.
+/// </summary>
 public interface IEventRepository : IBaseRepository<Event>
 {
     Task<Event> GetBySequenceNumberAsync(long sequenceNumber);
 }
 
+
+/// <summary>
+/// A repository for managing <see cref="Event"/> entities.
+/// </summary>
 public class EventsRepository(IEnablePresentationDbContext enablePresentationDbContext) : IBaseRepository<Event>, IEventRepository
 {
     private readonly IEnablePresentationDbContext _enablePresentationDbContext = enablePresentationDbContext;

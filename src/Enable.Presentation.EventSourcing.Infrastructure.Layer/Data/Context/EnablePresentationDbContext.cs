@@ -5,6 +5,9 @@ using System.Reflection;
 
 namespace Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Context;
 
+/// <summary>
+/// A database context example with event triggering 
+/// </summary>
 public interface IEnablePresentationDbContext
 {
     DbSet<Event> Events { get; set; }
@@ -18,6 +21,9 @@ public interface IEnablePresentationDbContext
     int SaveChanges();
 }
 
+/// <summary>
+/// A database context example with event triggering 
+/// </summary>
 public class EnablePresentationDbContext : DbContext, IEnablePresentationDbContext
 {
     private readonly IServiceBusMessagingService serviceBusMessagingService;

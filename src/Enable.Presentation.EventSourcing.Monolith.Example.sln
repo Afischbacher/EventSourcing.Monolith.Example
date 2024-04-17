@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enable.Presentation.EventSo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enable.Presentation.EventSourcing.Business.Layer", "Enable.Presentation.EventSourcing.Business.Data\Enable.Presentation.EventSourcing.Business.Layer.csproj", "{01BD684D-B824-4D52-8C20-8C052D53B43B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enable.Presentation.EventSourcing.Tests", "..\Enable.Presentation.EventSourcing.Tests\Enable.Presentation.EventSourcing.Tests.csproj", "{D949943E-078A-4C84-800C-8A6FEB5736F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{01BD684D-B824-4D52-8C20-8C052D53B43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01BD684D-B824-4D52-8C20-8C052D53B43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01BD684D-B824-4D52-8C20-8C052D53B43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D949943E-078A-4C84-800C-8A6FEB5736F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D949943E-078A-4C84-800C-8A6FEB5736F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D949943E-078A-4C84-800C-8A6FEB5736F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D949943E-078A-4C84-800C-8A6FEB5736F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

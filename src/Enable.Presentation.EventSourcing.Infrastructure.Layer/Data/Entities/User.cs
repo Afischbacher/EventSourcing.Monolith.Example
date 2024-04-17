@@ -1,9 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
 
+/// <summary>
+/// A user entity that represents a user in the system
+/// </summary>
 [PrimaryKey(nameof(Id))]
 [Index(nameof(Email), IsUnique = true)]
 [Table("Users", Schema = "dbo")]

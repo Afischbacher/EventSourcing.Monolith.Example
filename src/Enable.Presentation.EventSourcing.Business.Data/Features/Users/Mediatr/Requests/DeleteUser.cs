@@ -1,7 +1,7 @@
-﻿using Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
+using Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
 using MediatR;
 
-namespace Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Mediatr.Commands
+namespace Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Mediatr.Requests
 {
     /// <summary>
     /// A mediator command to delete a user by their user id

@@ -1,4 +1,4 @@
-﻿using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
+using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
 
 namespace Enable.Presentation.EventSourcing.DataAccess.Layer.Common.Repositories;
 
