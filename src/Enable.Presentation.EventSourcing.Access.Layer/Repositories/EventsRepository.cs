@@ -8,7 +8,7 @@ namespace Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
 
 public interface IEventRepository : IBaseRepository<Event>
 {
-    Task<Event> GetBySequenceNumberAsync(long sequenceNumber); 
+    Task<Event> GetBySequenceNumberAsync(long sequenceNumber);
 }
 
 public class EventsRepository(IEnablePresentationDbContext enablePresentationDbContext) : IBaseRepository<Event>, IEventRepository

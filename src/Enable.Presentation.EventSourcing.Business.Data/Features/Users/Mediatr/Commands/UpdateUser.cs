@@ -1,5 +1,4 @@
-﻿using Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Exceptions;
-using Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
+﻿using Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
 using MediatR;
 

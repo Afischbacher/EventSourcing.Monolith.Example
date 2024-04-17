@@ -1,10 +1,11 @@
-﻿using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
+using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
+using Enable.Presentation.EventSourcing.Infrastructure.Layer.Services.Messaging;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Context;
 
-public interface IEnablePresentationDbContext 
+public interface IEnablePresentationDbContext
 {
     DbSet<Event> Events { get; set; }
 
@@ -19,9 +20,12 @@ public interface IEnablePresentationDbContext
 
 public class EnablePresentationDbContext : DbContext, IEnablePresentationDbContext
 {
-    public EnablePresentationDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
+    private readonly IServiceBusMessagingService serviceBusMessagingService;
+
+    public EnablePresentationDbContext(DbContextOptions dbContextOptions, IServiceBusMessagingService serviceBusMessagingService) : base(dbContextOptions)
     {
         DetectEventEntityChanges();
+        this.serviceBusMessagingService = serviceBusMessagingService;
     }
 
     public bool HasEventsAdded { get; set; }
@@ -34,7 +38,7 @@ public class EnablePresentationDbContext : DbContext, IEnablePresentationDbConte
     {
         if (HasEventsAdded)
         {
-            await EmitEvents();
+            await TriggerEvents();
             HasEventsAdded = false;
         }
 
@@ -45,7 +49,8 @@ public class EnablePresentationDbContext : DbContext, IEnablePresentationDbConte
     {
         if (HasEventsAdded)
         {
-            await EmitEvents();
+            await TriggerEvents();
+            HasEventsAdded = false;
         }
 
         return await base.SaveChangesAsync(cancellationToken);
@@ -55,7 +60,8 @@ public class EnablePresentationDbContext : DbContext, IEnablePresentationDbConte
     {
         if (HasEventsAdded)
         {
-            EmitEvents().RunSynchronously();
+            TriggerEvents().RunSynchronously();
+            HasEventsAdded = false;
         }
 
         return base.SaveChanges();
@@ -67,19 +73,14 @@ public class EnablePresentationDbContext : DbContext, IEnablePresentationDbConte
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
 
-    private async Task EmitEvents() 
-    {
-    
-    }
+    private async Task TriggerEvents() => await this.serviceBusMessagingService.SendMessageAsync("events");
 
-    public void DetectEventEntityChanges()
-    {
-        base.ChangeTracker.DetectingEntityChanges += (entity, detectedEntityChanges) =>
-        {
-            if (detectedEntityChanges.Entry.OriginalValues.EntityType.ClrType == typeof(Event) && detectedEntityChanges.Entry.State == EntityState.Added)
-            {
-                HasEventsAdded = true;
-            }
-        };
-    }
+    public void DetectEventEntityChanges() => base.ChangeTracker.DetectingEntityChanges += (entity, detectedEntityChanges) =>
+                                                   {
+                                                       if (detectedEntityChanges.Entry.OriginalValues.EntityType.ClrType == typeof(Event)
+                                                            && detectedEntityChanges.Entry.State == EntityState.Added)
+                                                       {
+                                                           HasEventsAdded = true;
+                                                       }
+                                                   };
 }

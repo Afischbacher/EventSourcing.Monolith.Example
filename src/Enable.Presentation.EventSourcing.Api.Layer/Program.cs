@@ -3,6 +3,7 @@ using Enable.Presentation.EventSourcing.DataAccess.Layer.Configuration.Dependenc
 using Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Configuration.DependencyInjection.Mediator;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Context;
+using Enable.Presentation.EventSourcing.Infrastructure.Layer.Services.Messaging;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+
 builder.Services.AddMediatR(configuration =>
 {
     configuration.RegisterServicesFromAssemblies
@@ -20,6 +23,7 @@ builder.Services.AddMediatR(configuration =>
         typeof(IEnablePresentationInfrastructureLayerRegistration).Assembly
     ]);
 });
+
 
 // Validators
 builder.Services.AddValidatorsFromAssemblies
@@ -33,11 +37,11 @@ builder.Services.AddValidatorsFromAssemblies
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped<IEventRepository, EventsRepository>();
 
-// DbContext
-builder.Services.AddDbContext<IEnablePresentationDbContext, EnablePresentationDbContext>(options =>
-{
-    options.UseInMemoryDatabase(nameof(EnablePresentationDbContext));
-}, ServiceLifetime.Singleton);
+// Services
+builder.Services.AddSingleton<IServiceBusMessagingService, ServiceBusMessagingService>();
+
+// In-Memory DbContext
+builder.Services.AddDbContext<IEnablePresentationDbContext, EnablePresentationDbContext>(options => options.UseInMemoryDatabase(nameof(EnablePresentationDbContext)), ServiceLifetime.Singleton);
 
 var app = builder.Build();
 

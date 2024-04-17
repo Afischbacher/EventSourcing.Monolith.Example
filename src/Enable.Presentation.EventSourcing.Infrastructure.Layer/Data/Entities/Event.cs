@@ -1,10 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
 
-
+/// <summary>
+/// The event entity that represents an event in the system
+/// </summary>
 [PrimaryKey(nameof(SequenceNumber))]
 [Index(nameof(SequenceNumber), IsUnique = true)]
 [Table("Events", Schema = "dbo")]

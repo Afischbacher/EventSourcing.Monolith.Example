@@ -3,7 +3,6 @@ using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading;
 
 namespace Enable.Presentation.EventSourcing.Api.Layer.Controllers;
 
@@ -51,7 +50,7 @@ public class UsersController(IMediator mediator) : ControllerBase
         return await _mediator.Send(new AddUser
         {
             User = user
-        }, cancellationToken) 
+        }, cancellationToken)
         switch
         {
             null => NotFound(),
@@ -87,7 +86,7 @@ public class UsersController(IMediator mediator) : ControllerBase
         return await _mediator.Send(new DeleteUser
         {
             UserId = id
-        }, cancellationToken) 
+        }, cancellationToken)
         switch
         {
             false => NotFound(),
