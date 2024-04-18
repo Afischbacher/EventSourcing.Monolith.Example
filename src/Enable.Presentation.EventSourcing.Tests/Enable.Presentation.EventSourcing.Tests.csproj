@@ -18,7 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Enable.Presentation.EventSourcing.Access.Layer\Enable.Presentation.EventSourcing.DataAccess.Layer.csproj" />
     <ProjectReference Include="..\Enable.Presentation.EventSourcing.Api.Layer\Enable.Presentation.EventSourcing.Api.Layer.csproj" />
+    <ProjectReference Include="..\Enable.Presentation.EventSourcing.Business.Data.Layer\Enable.Presentation.EventSourcing.Business.Layer.csproj" />
   </ItemGroup>
 
   <ItemGroup>

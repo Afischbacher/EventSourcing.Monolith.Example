@@ -2,6 +2,7 @@ using Enable.Presentation.EventSourcing.DataAccess.Layer.Repositories;
 using Enable.Presentation.EventSourcing.Infrastructure.Layer.Data.Entities;
 using MediatR;
 using System.Text.Json;
+using System.Threading;
 
 namespace Enable.Presentation.EventSourcing.Business.Layer.Features.Users.Mediatr.Events;
 
